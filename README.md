@@ -6,37 +6,37 @@ Welcome to my **Data Structures & Algorithms (DSA)** learning repository.
 
 This repository documents my journey from learning DSA from **absolute basics** to mastering advanced problem-solving techniques using **Java**.
 
-The objective of this repository is not only to solve coding problems but also to understand **how algorithms work**, **why they work**, and **when to apply them** during software engineering interviews and real-world development.
+The objective of this repository is not only to solve coding problems but also to understand **how algorithms work**, **why they work**, and **when to apply them** during software engineering interviews and real-world software development.
 
 ---
 
 # 🎯 Goals
 
-* Master Data Structures & Algorithms from scratch
-* Build strong logical and analytical thinking
-* Learn common interview problem-solving patterns
-* Solve **300+ coding problems**
-* Improve coding speed and optimization skills
-* Become interview-ready for Software Engineering roles
-* Build a complete personal DSA handbook for future reference
+* Master Data Structures & Algorithms from scratch.
+* Build strong logical and analytical thinking.
+* Learn common interview problem-solving patterns.
+* Solve **300+ coding problems**.
+* Improve coding speed and optimization skills.
+* Become interview-ready for Software Engineering roles.
+* Build a complete personal DSA handbook for future reference.
 
 ---
 
 # 🛠️ Tech Stack
 
-### Programming Language
+## Programming Language
 
 * Java 21
 
-### IDE
+## IDE
 
 * IntelliJ IDEA Community Edition
 
-### Build Tool
+## Build Tool
 
 * Maven
 
-### Version Control
+## Version Control
 
 * Git
 * GitHub
@@ -49,7 +49,7 @@ This roadmap is designed to be completed over approximately **6 months**.
 
 ## 🚀 Phase 1 – Core Foundation (Months 1–3)
 
-* [ ] Time & Space Complexity
+* [x] Time & Space Complexity ✅
 * [ ] Mathematics
 * [ ] Arrays
 * [ ] Strings
@@ -116,33 +116,7 @@ DSA_Practice/
 ├── 02-Math/
 ├── 03-Arrays/
 ├── 04-Strings/
-├── 05-Hashing/
-├── 06-Prefix-Sum/
-├── 07-Suffix-Sum/
-├── 08-Difference-Array/
-├── 09-Kadanes-Algorithm/
-├── 10-Two-Pointers/
-├── 11-Sliding-Window/
-├── 12-Binary-Search/
-├── 13-Binary-Search-On-Answer/
-├── 14-Linked-List/
-├── 15-Stack/
-├── 16-Monotonic-Stack/
-├── 17-Queue/
-├── 18-Monotonic-Queue/
-├── 19-Heap/
-├── 20-Recursion/
-├── 21-Backtracking/
-├── 22-Binary-Tree/
-├── 23-Binary-Search-Tree/
-├── 24-Trie/
-├── 25-Graph/
-├── 26-Union-Find/
-├── 27-Topological-Sort/
-├── 28-Dynamic-Programming/
-├── 29-Greedy/
-├── 30-Bit-Manipulation/
-├── 31-Segment-Tree/
+├── ...
 ├── 32-Fenwick-Tree/
 │
 └── dsa-java/
@@ -152,20 +126,36 @@ DSA_Practice/
 
 # 📖 Documentation
 
-This repository contains detailed documentation to support the learning journey.
-
-| File                    | Description                                   |
-| ----------------------- | --------------------------------------------- |
-| `CURRICULUM.md`         | Complete 6-month DSA syllabus                 |
-| `LEARNING_GUIDE.md`     | Daily learning workflow and study methodology |
-| `INTERVIEW_PATTERNS.md` | Pattern recognition guide for interviews      |
-| `ROADMAP.md`            | Visual learning roadmap                       |
+| File                    | Description                   |
+| ----------------------- | ----------------------------- |
+| `CURRICULUM.md`         | Complete 6-month DSA syllabus |
+| `LEARNING_GUIDE.md`     | Daily learning workflow       |
+| `INTERVIEW_PATTERNS.md` | Common interview patterns     |
+| `ROADMAP.md`            | Complete visual roadmap       |
 
 ---
 
-# 📝 Problem Solving Template
+# 🧠 Learning Workflow
 
-Every problem in this repository follows the same structure.
+Every problem in this repository follows the same workflow.
+
+1. Understand the Problem
+2. Think and Design a Solution
+3. Write the Brute Force Solution
+4. Analyze Time Complexity
+5. Analyze Space Complexity
+6. Optimize the Solution
+7. Dry Run the Optimized Solution
+8. Write Clean Java Code
+9. Compare Both Approaches
+10. Identify the Pattern
+11. Note the Key Learning
+
+---
+
+# 📝 Problem Template
+
+Every problem follows this structure.
 
 * Problem Name
 * Problem Statement
@@ -184,45 +174,46 @@ Every problem in this repository follows the same structure.
 
 # 📊 Progress Tracker
 
-| Topic                   | Status | Problems Solved |
-| ----------------------- | :----: | --------------: |
-| Time Complexity         |    ⬜   |               0 |
-| Mathematics             |    ⬜   |               0 |
-| Arrays                  |    ⬜   |               0 |
-| Strings                 |    ⬜   |               0 |
-| Hashing                 |    ⬜   |               0 |
-| Prefix Sum              |    ⬜   |               0 |
-| Suffix Sum              |    ⬜   |               0 |
-| Difference Array        |    ⬜   |               0 |
-| Kadane's Algorithm      |    ⬜   |               0 |
-| Two Pointers            |    ⬜   |               0 |
-| Sliding Window          |    ⬜   |               0 |
-| Binary Search           |    ⬜   |               0 |
-| Binary Search on Answer |    ⬜   |               0 |
-| Linked List             |    ⬜   |               0 |
-| Stack                   |    ⬜   |               0 |
-| Monotonic Stack         |    ⬜   |               0 |
-| Queue                   |    ⬜   |               0 |
-| Monotonic Queue         |    ⬜   |               0 |
-| Heap                    |    ⬜   |               0 |
-| Recursion               |    ⬜   |               0 |
-| Backtracking            |    ⬜   |               0 |
-| Binary Tree             |    ⬜   |               0 |
-| Binary Search Tree      |    ⬜   |               0 |
-| Trie                    |    ⬜   |               0 |
-| Graph                   |    ⬜   |               0 |
-| Union Find              |    ⬜   |               0 |
-| Topological Sort        |    ⬜   |               0 |
-| Dynamic Programming     |    ⬜   |               0 |
-| Greedy                  |    ⬜   |               0 |
-| Bit Manipulation        |    ⬜   |               0 |
-| Segment Tree            |    ⬜   |               0 |
-| Fenwick Tree            |    ⬜   |               0 |
+| Topic                   | Status |  Problems |
+| ----------------------- | :----: | --------: |
+| Time & Space Complexity |    ✅   | Completed |
+| Mathematics             |    ⬜   |         0 |
+| Arrays                  |    ⬜   |         0 |
+| Strings                 |    ⬜   |         0 |
+| Hashing                 |    ⬜   |         0 |
+| Prefix Sum              |    ⬜   |         0 |
+| Suffix Sum              |    ⬜   |         0 |
+| Difference Array        |    ⬜   |         0 |
+| Kadane's Algorithm      |    ⬜   |         0 |
+| Two Pointers            |    ⬜   |         0 |
+| Sliding Window          |    ⬜   |         0 |
+| Binary Search           |    ⬜   |         0 |
+| Binary Search on Answer |    ⬜   |         0 |
+| Linked List             |    ⬜   |         0 |
+| Stack                   |    ⬜   |         0 |
+| Monotonic Stack         |    ⬜   |         0 |
+| Queue                   |    ⬜   |         0 |
+| Monotonic Queue         |    ⬜   |         0 |
+| Heap                    |    ⬜   |         0 |
+| Recursion               |    ⬜   |         0 |
+| Backtracking            |    ⬜   |         0 |
+| Binary Tree             |    ⬜   |         0 |
+| Binary Search Tree      |    ⬜   |         0 |
+| Trie                    |    ⬜   |         0 |
+| Graph                   |    ⬜   |         0 |
+| Union Find              |    ⬜   |         0 |
+| Topological Sort        |    ⬜   |         0 |
+| Dynamic Programming     |    ⬜   |         0 |
+| Greedy                  |    ⬜   |         0 |
+| Bit Manipulation        |    ⬜   |         0 |
+| Segment Tree            |    ⬜   |         0 |
+| Fenwick Tree            |    ⬜   |         0 |
 
 ---
 
 # 🏆 Milestones
 
+* [x] Complete Module 01 – Time & Space Complexity ✅
 * [ ] Solve First Problem
 * [ ] Solve 25 Problems
 * [ ] Solve 50 Problems
@@ -238,12 +229,12 @@ Every problem in this repository follows the same structure.
 
 # 📚 Learning Resources
 
-### Practice Platforms
+## Practice Platforms
 
 * LeetCode
 * GeeksforGeeks
 
-### Learning Platforms
+## Learning Platforms
 
 * Striver A2Z DSA Sheet
 * NeetCode
@@ -255,15 +246,16 @@ Every problem in this repository follows the same structure.
 # 💡 Rules I Follow
 
 * Think before looking at the solution.
-* Understand the problem before writing code.
-* Start with the brute-force solution.
+* Understand the problem completely.
+* Start with the brute-force approach.
+* Never optimize before the brute-force solution works.
+* Analyze both Time Complexity and Space Complexity.
 * Optimize step by step.
 * Dry run every algorithm.
-* Learn the pattern instead of memorizing code.
-* Analyze both Time and Space Complexity.
+* Learn patterns instead of memorizing code.
 * Write clean, readable Java code.
-* Revisit solved problems after one week.
-* Revisit them again after one month.
+* Review solved problems after one week.
+* Review them again after one month.
 * Stay consistent and avoid rushing.
 
 ---
@@ -274,27 +266,33 @@ Every problem in this repository follows the same structure.
 
 **Target Duration:** 6 Months
 
-**Problems Solved:** 0 / 300+
+**Modules Completed:** **1 / 32**
 
-**Current Module:** Module 01 – Time Complexity
+**Problems Solved:** **0 / 300+**
 
-**Current Lesson:** What is an Algorithm?
+**Current Module:** **Module 02 – Mathematics**
+
+**Current Lesson:** **Lesson 1 – Introduction to Mathematical Algorithms**
 
 ---
 
 # 🌟 Repository Vision
 
-This repository is intended to become a complete **DSA Handbook** containing:
+This repository is being built as a complete personal **DSA Handbook**.
 
-* Comprehensive notes
+It will contain:
+
+* Complete notes
 * Dry-run examples
+* Brute-force solutions
+* Optimized solutions
 * Java implementations
 * Interview patterns
-* Problem-solving techniques
+* Complexity analysis
 * Revision material
 * Personal learning progress
 
-The goal is to create a long-term reference that can be used for interview preparation, revision, and continuous learning.
+The goal is to build a long-term reference for interview preparation, software engineering, and continuous learning.
 
 ---
 
