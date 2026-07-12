@@ -1,8 +1,6 @@
 package com.surya.dsa;
 
-import com.surya.dsa.math.Armstrong;
-import com.surya.dsa.math.Palindrome;
-import com.surya.dsa.math.ReverseNumber;
+import com.surya.dsa.math.*;
 
 public class DSAJava{
 
@@ -13,7 +11,10 @@ public class DSAJava{
 //        System.out.println("Reverse number: " + ReverseNumber.reverseNumber(countingDigitsTarget));
 //        int isPalindromeTarget = 121;
 //        System.out.println("isPalindrome: " + Palindrome.isPalindrome(isPalindromeTarget));
-        System.out.println("isArmstrong: " + Armstrong.isArmstrong(153));
+//        System.out.println("isArmstrong: " + Armstrong.isArmstrong(153));
+//        System.out.println("Divisors : " + Divisors.getAllDivisorsOptimized(36));
+//        System.out.println("isPrime: " + PrimeNumbers.isPrime(13));
+        System.out.println("GCD: " + GCD.getGCDEuclidean(12, 18));
     }
 
 }
