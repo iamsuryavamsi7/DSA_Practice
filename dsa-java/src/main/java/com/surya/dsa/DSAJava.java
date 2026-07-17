@@ -15,7 +15,8 @@ public class DSAJava{
 //        System.out.println("Divisors : " + Divisors.getAllDivisorsOptimized(36));
 //        System.out.println("isPrime: " + PrimeNumbers.isPrime(13));
 //        System.out.println("GCD: " + GCD.getGCDEuclidean(12, 18));
-        System.out.println("LCM: " + LCM.getLCMOptimized(12, 18));
+//        System.out.println("LCM: " + LCM.getLCMOptimized(12, 18));
+//        System.out.println("Prime Factorial: " + PrimeFactors.getPrimeFactorsOptimized(60).toString());
     }
 
 }
