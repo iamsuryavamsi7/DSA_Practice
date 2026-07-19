@@ -4,21 +4,21 @@
 
 Welcome to my **Data Structures & Algorithms (DSA)** learning repository.
 
-This repository documents my journey from learning DSA from **absolute basics** to mastering advanced data structures, algorithms, and interview problem-solving patterns using **Java**.
+This repository documents my journey of learning **Data Structures & Algorithms from scratch** using **Java**. The objective is not just to solve coding problems, but to build a deep understanding of algorithmic thinking, recognize common interview patterns, and become interview-ready for Software Engineering roles.
 
-The goal is not only to solve coding problems but to deeply understand **how algorithms work**, **why they work**, **when to apply them**, and **how to recognize the underlying pattern** behind every problem.
+This repository serves as my personal **DSA Handbook**, containing notes, dry runs, implementations, complexity analysis, and problem-solving strategies.
 
 ---
 
 # 🎯 Goals
 
-- Master Data Structures & Algorithms from scratch.
-- Build strong logical and analytical thinking.
-- Learn common interview problem-solving patterns.
+- Master Data Structures & Algorithms from fundamentals to advanced topics.
+- Develop strong problem-solving and analytical thinking.
+- Understand why an algorithm works, not just how to implement it.
+- Recognize common interview patterns.
 - Solve **300+ coding problems**.
-- Improve coding speed and optimization skills.
+- Build a reusable personal DSA reference.
 - Become interview-ready for Software Engineering roles.
-- Build a complete personal DSA handbook for future reference.
 
 ---
 
@@ -45,87 +45,55 @@ The goal is not only to solve coding problems but to deeply understand **how alg
 
 # 📅 Learning Roadmap
 
-This roadmap is designed to be completed over approximately **6 months**.
+## ✅ Phase 1 – Foundations
+
+- [x] Time & Space Complexity
+- [x] Mathematics
 
 ---
 
-## 🚀 Phase 1 – Foundation
-
-The goal of this phase is to build a strong understanding of algorithm analysis and mathematical foundations.
-
-- [x] Time & Space Complexity ✅
-- [x] Mathematics ✅
-
----
-
-## 🚀 Phase 2 – Pattern Recognition
-
-This phase focuses on recognizing common interview patterns before learning advanced data structures.
+## 🚀 Phase 2 – Core Data Structures & Algorithms
 
 - [ ] Arrays
-- [ ] Strings
-- [ ] Hashing
-- [ ] Prefix Sum
-- [ ] Suffix Sum
-- [ ] Difference Array
-- [ ] Kadane's Algorithm
-- [ ] Two Pointers
-- [ ] Sliding Window
+- [ ] Sorting
 - [ ] Binary Search
-- [ ] Binary Search on Answer
-
----
-
-## 🚀 Phase 3 – Linear Data Structures
-
+- [ ] Strings
+- [ ] Recursion
+- [ ] Hashing
 - [ ] Linked List
 - [ ] Stack
-- [ ] Monotonic Stack
 - [ ] Queue
-- [ ] Monotonic Queue
-- [ ] Heap (Priority Queue)
 
 ---
 
-## 🚀 Phase 4 – Recursive Thinking
-
-- [ ] Recursion
-- [ ] Backtracking
-
----
-
-## 🚀 Phase 5 – Tree Patterns
+## 🌳 Phase 3 – Trees & Advanced Data Structures
 
 - [ ] Binary Tree
 - [ ] Binary Search Tree
+- [ ] Heap
 - [ ] Trie
 
 ---
 
-## 🚀 Phase 6 – Graph Algorithms
+## 🌐 Phase 4 – Advanced Algorithms
 
+- [ ] Backtracking
 - [ ] Graph
-- [ ] Union Find (Disjoint Set Union)
-- [ ] Topological Sort
-
----
-
-## 🚀 Phase 7 – Advanced Algorithms
-
 - [ ] Dynamic Programming
 - [ ] Greedy Algorithms
 - [ ] Bit Manipulation
 
 ---
 
-## ⭐ Advanced Topics (Optional)
+## ⭐ Phase 5 – Advanced Topics
 
 - [ ] Segment Tree
-- [ ] Fenwick Tree (Binary Indexed Tree)
+- [ ] Disjoint Set Union (Union Find)
+- [ ] Advanced Interview Problems
 
 ---
 
-# 📚 Repository Structure
+# 📂 Repository Structure
 
 ```text
 DSA_Practice/
@@ -139,11 +107,28 @@ DSA_Practice/
 │   └── ROADMAP.md
 │
 ├── 01-Time-Complexity/
-├── 02-Math/
+├── 02-Mathematics/
 ├── 03-Arrays/
-├── 04-Strings/
-├── ...
-├── 32-Fenwick-Tree/
+├── 04-Sorting/
+├── 05-Binary-Search/
+├── 06-Strings/
+├── 07-Recursion/
+├── 08-Hashing/
+├── 09-Linked-List/
+├── 10-Stack/
+├── 11-Queue/
+├── 12-Binary-Tree/
+├── 13-Binary-Search-Tree/
+├── 14-Heap/
+├── 15-Backtracking/
+├── 16-Graph/
+├── 17-Dynamic-Programming/
+├── 18-Greedy/
+├── 19-Bit-Manipulation/
+├── 20-Trie/
+├── 21-Segment-Tree/
+├── 22-Disjoint-Set/
+├── 23-Advanced-Problems/
 │
 └── dsa-java/
 ```
@@ -154,45 +139,44 @@ DSA_Practice/
 
 | File | Description |
 |------|-------------|
-| `CURRICULUM.md` | Complete DSA curriculum |
-| `LEARNING_GUIDE.md` | Daily learning workflow |
-| `INTERVIEW_PATTERNS.md` | Common interview patterns |
-| `ROADMAP.md` | Complete learning roadmap |
+| CURRICULUM.md | Complete DSA curriculum |
+| LEARNING_GUIDE.md | Daily learning workflow |
+| INTERVIEW_PATTERNS.md | Common interview techniques and patterns |
+| ROADMAP.md | Complete learning roadmap |
 
 ---
 
 # 🧠 Learning Workflow
 
-Every problem follows the same structured approach.
+Every problem follows a consistent workflow.
 
-1. Understand the Problem
-2. Design the Solution
-3. Write the Brute Force Solution
-4. Analyze Time Complexity
-5. Analyze Space Complexity
-6. Optimize the Solution
-7. Dry Run the Optimized Solution
-8. Write Clean Java Code
-9. Compare Both Approaches
-10. Identify the Pattern
-11. Document Key Learnings
+1. Understand the problem.
+2. Think independently.
+3. Design the brute-force solution.
+4. Analyze Time Complexity.
+5. Analyze Space Complexity.
+6. Optimize the solution.
+7. Dry run the optimized approach.
+8. Implement in Java.
+9. Compare both approaches.
+10. Identify the underlying pattern.
+11. Document the learning.
 
 ---
 
 # 📝 Problem Template
 
-Each problem contains:
+Every problem includes:
 
-- Problem Name
 - Problem Statement
-- Problem Link
-- Difficulty
-- Brute Force Solution
-- Optimized Solution
-- Java Implementation
+- Examples
+- Constraints
+- Brute Force Approach
+- Optimal Approach
 - Time Complexity
 - Space Complexity
 - Dry Run
+- Java Implementation
 - Key Learning
 - Similar Problems
 
@@ -200,49 +184,39 @@ Each problem contains:
 
 # 📊 Progress Tracker
 
-| Topic | Status | Problems |
-|------|:------:|---------:|
-| Time & Space Complexity | ✅ | Completed |
-| Mathematics | ✅ | 11 |
-| Arrays | ⬜ | 0 |
-| Strings | ⬜ | 0 |
-| Hashing | ⬜ | 0 |
-| Prefix Sum | ⬜ | 0 |
-| Suffix Sum | ⬜ | 0 |
-| Difference Array | ⬜ | 0 |
-| Kadane's Algorithm | ⬜ | 0 |
-| Two Pointers | ⬜ | 0 |
-| Sliding Window | ⬜ | 0 |
-| Binary Search | ⬜ | 0 |
-| Binary Search on Answer | ⬜ | 0 |
-| Linked List | ⬜ | 0 |
-| Stack | ⬜ | 0 |
-| Monotonic Stack | ⬜ | 0 |
-| Queue | ⬜ | 0 |
-| Monotonic Queue | ⬜ | 0 |
-| Heap | ⬜ | 0 |
-| Recursion | ⬜ | 0 |
-| Backtracking | ⬜ | 0 |
-| Binary Tree | ⬜ | 0 |
-| Binary Search Tree | ⬜ | 0 |
-| Trie | ⬜ | 0 |
-| Graph | ⬜ | 0 |
-| Union Find | ⬜ | 0 |
-| Topological Sort | ⬜ | 0 |
-| Dynamic Programming | ⬜ | 0 |
-| Greedy | ⬜ | 0 |
-| Bit Manipulation | ⬜ | 0 |
-| Segment Tree | ⬜ | 0 |
-| Fenwick Tree | ⬜ | 0 |
+| Module | Status |
+|---------|:------:|
+| Time & Space Complexity | ✅ |
+| Mathematics | ✅ |
+| Arrays | ⬜ |
+| Sorting | ⬜ |
+| Binary Search | ⬜ |
+| Strings | ⬜ |
+| Recursion | ⬜ |
+| Hashing | ⬜ |
+| Linked List | ⬜ |
+| Stack | ⬜ |
+| Queue | ⬜ |
+| Binary Tree | ⬜ |
+| Binary Search Tree | ⬜ |
+| Heap | ⬜ |
+| Backtracking | ⬜ |
+| Graph | ⬜ |
+| Dynamic Programming | ⬜ |
+| Greedy | ⬜ |
+| Bit Manipulation | ⬜ |
+| Trie | ⬜ |
+| Segment Tree | ⬜ |
+| Disjoint Set | ⬜ |
+| Advanced Problems | ⬜ |
 
 ---
 
 # 🏆 Milestones
 
-- [x] Complete Module 01 – Time & Space Complexity ✅
-- [x] Complete Module 02 – Mathematics ✅
-- [ ] Complete Module 03 – Arrays
-- [ ] Solve First Problem
+- [x] Complete Time & Space Complexity
+- [x] Complete Mathematics
+- [ ] Complete Arrays
 - [ ] Solve 25 Problems
 - [ ] Solve 50 Problems
 - [ ] Solve 100 Problems
@@ -261,8 +235,9 @@ Each problem contains:
 
 - LeetCode
 - GeeksforGeeks
+- HackerRank
 
-## Learning Platforms
+## Learning Resources
 
 - Striver A2Z DSA Sheet
 - NeetCode
@@ -271,20 +246,17 @@ Each problem contains:
 
 ---
 
-# 💡 Rules I Follow
+# 💡 Learning Principles
 
-- Think before looking at the solution.
-- Fully understand the problem.
+- Think before looking at any solution.
 - Always start with the brute-force approach.
-- Never optimize before the brute-force solution works.
-- Analyze both Time Complexity and Space Complexity.
-- Optimize step by step.
+- Optimize only after understanding the brute-force solution.
+- Analyze Time and Space Complexity.
 - Dry run every algorithm.
-- Learn patterns instead of memorizing code.
-- Write clean, readable Java code.
-- Review solved problems after one week.
-- Review them again after one month.
-- Stay consistent and avoid rushing.
+- Focus on patterns instead of memorizing code.
+- Write clean, readable Java.
+- Revise solved problems regularly.
+- Stay consistent.
 
 ---
 
@@ -294,15 +266,13 @@ Each problem contains:
 
 **Target Duration:** 6 Months
 
-**Modules Completed:** **2 / 32**
+**Modules Completed:** **2 / 23**
 
 **Problems Solved:** **11 / 300+**
 
-**Current Phase:** **Phase 2 – Pattern Recognition**
-
 **Current Module:** **03 – Arrays**
 
-**Next Topic:** **Array Fundamentals**
+**Current Lesson:** **Second Largest Element**
 
 ---
 
@@ -310,19 +280,18 @@ Each problem contains:
 
 This repository is being built as a complete personal **DSA Handbook**.
 
-It will contain:
+It contains:
 
-- Complete notes
-- Dry-run examples
-- Brute-force solutions
-- Optimized solutions
-- Java implementations
-- Interview patterns
-- Complexity analysis
-- Revision material
-- Personal learning progress
+- 📚 Comprehensive Notes
+- 🧠 Algorithm Explanations
+- 🔍 Dry Runs
+- ⚙️ Java Implementations
+- 📈 Complexity Analysis
+- 🎯 Interview Patterns
+- 📝 Revision Notes
+- 🚀 Personal Learning Progress
 
-The objective is to build a long-term reference for interview preparation, software engineering, and continuous learning.
+The long-term goal is to build a reusable reference for interview preparation and continuous learning.
 
 ---
 

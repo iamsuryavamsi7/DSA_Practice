@@ -1,11 +1,12 @@
 package com.surya.dsa;
 
-import com.surya.dsa.math.*;
+import com.surya.dsa.arrays.SecondLargestElement;
 
 public class DSAJava{
 
     // Main file (Starting point of code execution)
     public static void main(String[] args){
+
 //        int countingDigitsTarget = 12345;
 //        System.out.println("Count digits: " + CountDigits.countDigits(countingDigitsTarget));
 //        System.out.println("Reverse number: " + ReverseNumber.reverseNumber(countingDigitsTarget));
@@ -19,6 +20,11 @@ public class DSAJava{
 //        System.out.println("Prime Factorial: " + PrimeFactors.getPrimeFactorsOptimized(60).toString());
 //        System.out.println("Eratosthenes: " + Eratosthenes.getAllPrimesOptimized(20));
 //        System.out.println("Binary Exponentiation: " + BinaryExponentiation.getPowerBruteForce(3, 3));
+//        BasicArrayOperations.basicArrayOperations();
+//        System.out.println("LargestElement: " + LargestElement.findLargestElementByBruteForceSorting(new int[]{100, 88, 77, 100, 99}));
+//        System.out.println("LargestElement: " + LargestElement.findLargestElementByBruteForceOptimal(new int[]{100, 88, 77, 100, 99}));
+        SecondLargestElement.findSecondLargestElement(new int[]{100, 88, 99, 77, 44});
+
     }
 
 }
