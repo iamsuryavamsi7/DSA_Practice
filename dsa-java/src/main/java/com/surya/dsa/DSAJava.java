@@ -1,8 +1,6 @@
 package com.surya.dsa;
 
-import com.surya.dsa.arrays.Intersection;
-import com.surya.dsa.arrays.MissingNumber;
-import com.surya.dsa.arrays.UnionArray;
+import com.surya.dsa.arrays.*;
 
 public class DSAJava{
 
@@ -35,10 +33,14 @@ public class DSAJava{
 //        System.out.println(LinearSearch.linearSearch(numsArrayRemoveDuplicates, 2));
 //        int[] missingArr = new int[]{1, 2, 4, 5};
 //        MissingNumber.missingNumber(missingArr);
-        int[] unionArr01 = new int[]{1, 2, 3, 4};
-        int[] unionArr02 = new int[]{3, 4, 5, 6};
+//        int[] unionArr01 = new int[]{1, 2, 3, 4};
+//        int[] unionArr02 = new int[]{3, 4, 5, 6};
 //        UnionArray.getUnionArrayOptimize(unionArr01, unionArr02);
-        Intersection.getIntersectionArrayOptimize(unionArr01, unionArr02);
+//        Intersection.getIntersectionArrayOptimize(unionArr01, unionArr02);
+//        int[] binaryArr = new int[]{0, 0, 1, 1, 1, 1, 1, 0, 1};
+//        MaxConsecutiveOnes.getMaxConsecutiveOnes(binaryArr);
+        int[] numArrOnce = new int[]{2, 2, 1, 1, 4};
+        NumberAppearsOnce.getNumberAppearsOnce(numArrOnce);
 
     }
 
