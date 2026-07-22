@@ -39,8 +39,10 @@ public class DSAJava{
 //        Intersection.getIntersectionArrayOptimize(unionArr01, unionArr02);
 //        int[] binaryArr = new int[]{0, 0, 1, 1, 1, 1, 1, 0, 1};
 //        MaxConsecutiveOnes.getMaxConsecutiveOnes(binaryArr);
-        int[] numArrOnce = new int[]{2, 2, 1, 1, 4};
-        NumberAppearsOnce.getNumberAppearsOnce(numArrOnce);
+//        int[] numArrOnce = new int[]{2, 2, 1, 1, 4};
+//        NumberAppearsOnce.getNumberAppearsOnce(numArrOnce);
+        int[] numArrSubArrayEqualsK = new int[]{2, -1, 2};
+        SubArrayEqualsK.getSubArrayEqualsK(numArrSubArrayEqualsK, 3);
 
     }
 
