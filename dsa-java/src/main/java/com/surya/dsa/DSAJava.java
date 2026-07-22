@@ -41,8 +41,10 @@ public class DSAJava{
 //        MaxConsecutiveOnes.getMaxConsecutiveOnes(binaryArr);
 //        int[] numArrOnce = new int[]{2, 2, 1, 1, 4};
 //        NumberAppearsOnce.getNumberAppearsOnce(numArrOnce);
-        int[] numArrSubArrayEqualsK = new int[]{2, -1, 2};
-        SubArrayEqualsK.getSubArrayEqualsK(numArrSubArrayEqualsK, 3);
+//        int[] numArrSubArrayEqualsK = new int[]{2, -1, 2};
+//        SubArrayEqualsK.getSubArrayEqualsK(numArrSubArrayEqualsK, 3);
+//        int[] targetArr = new int[]{2, 7, 11, 15};
+//        TwoSum.getTwoSumSlidingOptimized(targetArr, 9);
 
     }
 
