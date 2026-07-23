@@ -47,8 +47,10 @@ public class DSAJava{
 //        TwoSum.getTwoSumSlidingOptimized(targetArr, 9);
 //        int[] targetArrSorted = new int[]{0, 0, 0, 1, 2, 2, 1, 2, 2};
 //        SortArrayOnesTwosThrees.getSortArrayOnesTwosThreesOptimized(targetArrSorted);
-        int[] majorityElement = new int[]{2,2,1,1,1,2,2};
-        MajorityElement.getMajorityElementOptimized(majorityElement);
+//        int[] majorityElement = new int[]{2,2,1,1,1,2,2};
+//        MajorityElement.getMajorityElementOptimized(majorityElement);
+        int[] maxSum = new int[]{2, 3, -8, 7, -1, 2, 3};
+        MaximumSubArraySum.getMaximumSubArraySumBruteForce(maxSum);
 
     }
 
