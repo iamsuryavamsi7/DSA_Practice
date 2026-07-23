@@ -45,6 +45,8 @@ public class DSAJava{
 //        SubArrayEqualsK.getSubArrayEqualsK(numArrSubArrayEqualsK, 3);
 //        int[] targetArr = new int[]{2, 7, 11, 15};
 //        TwoSum.getTwoSumSlidingOptimized(targetArr, 9);
+        int[] targetArrSorted = new int[]{0, 0, 0, 1, 2, 2, 1, 2, 2};
+        SortArrayOnesTwosThrees.getSortArrayOnesTwosThrees(targetArrSorted);
 
     }
 
