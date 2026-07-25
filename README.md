@@ -6,18 +6,18 @@ Welcome to my **Data Structures & Algorithms (DSA)** learning repository.
 
 This repository documents my journey of learning **Data Structures & Algorithms from scratch** using **Java**. The objective is not just to solve coding problems, but to build a deep understanding of algorithmic thinking, recognize common interview patterns, and become interview-ready for Software Engineering roles.
 
-This repository serves as my personal **DSA Handbook**, containing notes, dry runs, Java implementations, complexity analysis, interview patterns, and problem-solving strategies.
+This repository serves as my personal **DSA Handbook**, containing comprehensive notes, dry runs, Java implementations, complexity analysis, interview patterns, and problem-solving strategies.
 
 ---
 
 # 🎯 Goals
 
 - Master Data Structures & Algorithms from fundamentals to advanced topics.
-- Develop strong problem-solving and analytical thinking.
-- Understand why an algorithm works, not just how to implement it.
-- Recognize common interview patterns.
-- Solve **300+ coding problems**.
-- Build a reusable personal DSA reference.
+- Develop strong analytical and problem-solving skills.
+- Understand **why** an algorithm works instead of memorizing implementations.
+- Learn common interview patterns and optimization techniques.
+- Solve **200–250 carefully selected interview problems**.
+- Build a reusable personal DSA handbook for future reference.
 - Become interview-ready for Software Engineering roles.
 
 ---
@@ -45,54 +45,95 @@ This repository serves as my personal **DSA Handbook**, containing notes, dry ru
 
 # 📅 Learning Roadmap
 
-This repository follows a structured roadmap designed to build strong problem-solving skills and interview readiness. Each module builds upon concepts learned in previous modules.
+This repository follows a structured roadmap designed to build strong problem-solving skills from the ground up. Each module builds upon concepts learned in previous modules.
+
+---
 
 ## ✅ Module 01 – Time Complexity
 
+### Topics Covered
+
+- [x] Introduction to Algorithms
+- [x] Data Structures
 - [x] Time Complexity
 - [x] Space Complexity
 - [x] Big-O Notation
 - [x] Complexity Analysis
+- [x] Best, Average & Worst Case
+- [x] Complexity Simplification Rules
 
 ---
 
 ## ✅ Module 02 – Mathematics
 
-- [x] Mathematics Fundamentals
-- [x] Number Theory
-- [x] Prime Numbers
-- [x] GCD & LCM
+### Topics Covered
+
+- [x] Count Digits
+- [x] Reverse Number
+- [x] Palindrome Number
+- [x] Armstrong Number
+- [x] Print All Divisors
+- [x] Prime Number
+- [x] Greatest Common Divisor (GCD)
+- [x] Least Common Multiple (LCM)
+- [x] Prime Factorization
+- [x] Sieve of Eratosthenes
 - [x] Binary Exponentiation
 
 ---
 
-## 🟨 Module 03 – Arrays
+## 🟨 Module 03 – Arrays (Core)
+
+### Topics
 
 - [ ] Array Fundamentals
-- [ ] Interview Patterns
-- [ ] Easy Problems
-- [ ] Medium Problems
-- [ ] Hard Problems
+- [ ] Traversal
+- [ ] Two Pointers
+- [ ] Sliding Window
+- [ ] Prefix Sum
+- [ ] HashMap Based Problems
+- [ ] Interview Problems
 
 ---
 
-## ⬜ Module 04 – Binary Search
+## ⬜ Module 04 – Sorting
+
+### Topics
+
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Insertion Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Counting Sort
+- [ ] Heap Sort
+
+---
+
+## ⬜ Module 05 – Binary Search
+
+### Topics
 
 - [ ] Binary Search Fundamentals
 - [ ] Binary Search on Answers
-- [ ] Binary Search in 2D Arrays
+- [ ] Binary Search on 2D Arrays
 
 ---
 
-## ⬜ Module 05 – Strings
+## ⬜ Module 06 – Strings
+
+### Topics
 
 - [ ] String Fundamentals
+- [ ] Two Pointers
 - [ ] Sliding Window
 - [ ] Pattern Matching
 
 ---
 
-## ⬜ Module 06 – Recursion
+## ⬜ Module 07 – Recursion
+
+### Topics
 
 - [ ] Basic Recursion
 - [ ] Backtracking Foundations
@@ -100,39 +141,43 @@ This repository follows a structured roadmap designed to build strong problem-so
 
 ---
 
-## ⬜ Module 07 – Sorting
-
-- [ ] Elementary Sorting
-- [ ] Divide & Conquer Sorting
-- [ ] Non-Comparison Sorting
-
----
-
 ## ⬜ Module 08 – Linked List
+
+### Topics
 
 - [ ] Singly Linked List
 - [ ] Doubly Linked List
+- [ ] Fast & Slow Pointer
 - [ ] Interview Problems
 
 ---
 
 ## ⬜ Module 09 – Stack & Queue
 
+### Topics
+
 - [ ] Stack
 - [ ] Queue
 - [ ] Monotonic Stack
-- [ ] Queue Patterns
+- [ ] Monotonic Queue
+- [ ] Interview Problems
 
 ---
 
 ## ⬜ Module 10 – Trees
 
+### Topics
+
 - [ ] Binary Tree
 - [ ] Binary Search Tree
+- [ ] Tree Traversals
+- [ ] Tree Interview Problems
 
 ---
 
 ## ⬜ Module 11 – Heap
+
+### Topics
 
 - [ ] Heap Fundamentals
 - [ ] Priority Queue
@@ -142,33 +187,46 @@ This repository follows a structured roadmap designed to build strong problem-so
 
 ## ⬜ Module 12 – Graphs
 
+### Topics
+
 - [ ] Graph Traversal
-- [ ] Shortest Path
+- [ ] Shortest Path Algorithms
 - [ ] Minimum Spanning Tree
+- [ ] Topological Sorting
 - [ ] Advanced Graph Algorithms
 
 ---
 
 ## ⬜ Module 13 – Greedy Algorithms
 
+### Topics
+
 - [ ] Greedy Strategy
 - [ ] Optimization Problems
+- [ ] Interval Based Problems
 
 ---
 
 ## ⬜ Module 14 – Dynamic Programming
 
+### Topics
+
 - [ ] 1D Dynamic Programming
 - [ ] 2D Dynamic Programming
 - [ ] Knapsack Problems
+- [ ] Longest Common Subsequence
+- [ ] Longest Increasing Subsequence
 - [ ] Advanced DP
 
 ---
 
 ## ⬜ Module 15 – Bit Manipulation
 
+### Topics
+
 - [ ] Bitwise Operations
 - [ ] XOR Techniques
+- [ ] Binary Representation
 - [ ] Interview Problems
 
 ---
@@ -192,13 +250,13 @@ DSA_Practice/
 │
 ├── 03-Arrays/
 │
-├── 04-Binary-Search/
+├── 04-Sorting/
 │
-├── 05-Strings/
+├── 05-Binary-Search/
 │
-├── 06-Recursion/
+├── 06-Strings/
 │
-├── 07-Sorting/
+├── 07-Recursion/
 │
 ├── 08-Linked-List/
 │
@@ -219,40 +277,143 @@ DSA_Practice/
 └── dsa-java/
 ```
 
+> **Note:** New module folders will be created only when I begin learning that module.
+
 ---
 
 # 📖 Documentation
 
+Every module in this repository follows a consistent documentation structure to make revision easier and reinforce concepts through multiple perspectives.
+
 | File | Description |
 |------|-------------|
-| `CURRICULUM.md` | Complete DSA syllabus with modules and topics |
+| `CURRICULUM.md` | Complete DSA syllabus and module breakdown |
 | `LEARNING_GUIDE.md` | Daily learning workflow and study methodology |
-| `INTERVIEW_PATTERNS.md` | Common interview patterns and problem-solving techniques |
-| `ROADMAP.md` | Overall DSA roadmap and learning milestones |
+| `INTERVIEW_PATTERNS.md` | Common interview patterns and techniques |
+| `ROADMAP.md` | Complete learning roadmap and milestones |
+
+---
+
+# 📁 Module Structure
+
+Every module follows a consistent folder structure.
+
+```text
+Module/
+
+├── COMPLETED.md
+│
+├── Notes/
+│   ├── Topic-01.md
+│   ├── Topic-02.md
+│   └── ...
+│
+├── Problems/
+│   ├── Problem-01.md
+│   ├── Problem-02.md
+│   └── ...
+│
+└── Dry-Run/
+    ├── Problem-01.md
+    ├── Problem-02.md
+    └── ...
+```
+
+---
+
+## 📚 Notes
+
+The **Notes** folder contains concept explanations.
+
+Each note includes:
+
+- Theory
+- Intuition
+- Algorithm Explanation
+- Complexity Analysis
+- Common Mistakes
+- Interview Tips
+- Similar Concepts
+
+---
+
+## 📝 Problems
+
+The **Problems** folder contains the original problem statement and solution approach.
+
+Each problem includes:
+
+- Problem Statement
+- Examples
+- Constraints
+- Brute Force Approach
+- Optimal Approach
+- Complexity Analysis
+- Similar Problems
+
+---
+
+## 🔍 Dry Runs
+
+The **Dry-Run** folder contains step-by-step execution of every optimized algorithm.
+
+Each dry run contains:
+
+- Variable Initialization
+- Every Iteration
+- Pointer Movement
+- Intermediate Calculations
+- Final Result
+- Key Learning
 
 ---
 
 # 🧠 Learning Workflow
 
-Every problem in this repository follows the same structured workflow.
+Every problem in this repository follows the same workflow.
 
-1. Understand the problem.
-2. Think independently before looking at any solution.
-3. Design the brute-force approach.
-4. Analyze Time Complexity.
-5. Analyze Space Complexity.
-6. Optimize the solution.
-7. Dry run the optimized approach.
-8. Implement the solution in Java.
-9. Compare brute-force and optimized approaches.
-10. Identify the underlying interview pattern.
-11. Document the learning.
+```text
+Understand Problem
+        │
+        ▼
+Think Independently
+        │
+        ▼
+Brute Force Solution
+        │
+        ▼
+Analyze Complexity
+        │
+        ▼
+Identify Bottleneck
+        │
+        ▼
+Optimize Solution
+        │
+        ▼
+Dry Run
+        │
+        ▼
+Java Implementation
+        │
+        ▼
+Complexity Analysis
+        │
+        ▼
+Pattern Recognition
+        │
+        ▼
+Documentation
+        │
+        ▼
+Revision
+```
 
 ---
 
 # 📝 Problem Documentation Template
 
-Every problem includes the following sections.
+Every solved problem follows the same documentation format.
 
 - 📌 Problem Statement
 - 📝 Examples
@@ -264,49 +425,117 @@ Every problem includes the following sections.
 - 🔍 Dry Run
 - ☕ Java Implementation
 - 🧠 Key Learnings
+- ❌ Common Mistakes
+- 🎯 Interview Pattern
 - 🔗 Similar Problems
 
 ---
 
 # 🎯 Interview Problem-Solving Strategy
 
-For every new problem, I follow this sequence instead of memorizing code.
+Instead of memorizing code, every problem is solved using the following process.
 
 1. Read and understand the problem.
-2. Solve it using the brute-force approach.
-3. Identify the bottleneck.
-4. Think about possible optimizations.
-5. Recognize the underlying algorithmic pattern.
-6. Dry run the optimized solution.
-7. Implement it in Java.
-8. Analyze Time & Space Complexity.
-9. Document the solution.
-10. Revise the problem later.
+2. Think independently for a solution.
+3. Design the brute-force approach.
+4. Analyze the Time Complexity.
+5. Analyze the Space Complexity.
+6. Identify the bottleneck.
+7. Think about possible optimizations.
+8. Recognize the underlying interview pattern.
+9. Dry run the optimized solution.
+10. Implement the solution in Java.
+11. Compare brute-force and optimized approaches.
+12. Document the learning.
+13. Revise the problem after a few days.
 
 ---
 
 # 🧩 Interview Patterns
 
-Throughout this journey, the focus is on recognizing patterns rather than memorizing individual solutions.
+One of the primary goals of this repository is to recognize reusable interview patterns rather than memorize individual solutions.
 
-Some of the major patterns covered include:
+The major patterns covered throughout this journey include:
+
+## Arrays
 
 - Traversal
-- Two Pointers
-- Sliding Window
 - Prefix Sum
+- Suffix Sum
+- Sliding Window
+- Two Pointers
 - HashMap
+- Dutch National Flag Algorithm
+- Kadane's Algorithm
+- Boyer-Moore Voting Algorithm
+
+---
+
+## Searching & Sorting
+
 - Binary Search
-- Fast & Slow Pointer
+- Binary Search on Answers
 - Divide & Conquer
+- Merge Sort
+- Quick Sort
+
+---
+
+## Linked List
+
+- Fast & Slow Pointer
+- Reversal
+- Cycle Detection
+
+---
+
+## Stack & Queue
+
 - Monotonic Stack
+- Monotonic Queue
+- Next Greater Element
+- Histogram Problems
+
+---
+
+## Trees
+
+- DFS
+- BFS
+- Recursive Traversal
+- Morris Traversal
+
+---
+
+## Graphs
+
 - Breadth First Search (BFS)
 - Depth First Search (DFS)
-- Greedy
-- Dynamic Programming
-- Backtracking
+- Topological Sort
+- Dijkstra's Algorithm
+- Union Find (Disjoint Set)
 
-Each solved problem is mapped to one or more of these patterns.
+---
+
+## Dynamic Programming
+
+- Memoization
+- Tabulation
+- State Transition
+- Knapsack Pattern
+- Longest Common Subsequence
+- Longest Increasing Subsequence
+
+---
+
+## Other Important Patterns
+
+- Greedy
+- Backtracking
+- Bit Manipulation
+- Mathematical Optimization
+
+Every solved problem in this repository is mapped to one or more of these patterns to build long-term problem-solving intuition.
 
 ---
 
@@ -316,11 +545,11 @@ Each solved problem is mapped to one or more of these patterns.
 |---------|:------:|
 | Time Complexity | ✅ Completed |
 | Mathematics | ✅ Completed |
-| Arrays | 🟨 In Progress |
+| Arrays (Core) | 🟨 In Progress |
+| Sorting | ⬜ Not Started |
 | Binary Search | ⬜ Not Started |
 | Strings | ⬜ Not Started |
 | Recursion | ⬜ Not Started |
-| Sorting | ⬜ Not Started |
 | Linked List | ⬜ Not Started |
 | Stack & Queue | ⬜ Not Started |
 | Trees | ⬜ Not Started |
@@ -334,13 +563,15 @@ Each solved problem is mapped to one or more of these patterns.
 
 # 🏆 Milestones
 
+## Module Completion
+
 - [x] Complete Module 01 – Time Complexity
 - [x] Complete Module 02 – Mathematics
-- [ ] Complete Module 03 – Arrays
-- [ ] Complete Module 04 – Binary Search
-- [ ] Complete Module 05 – Strings
-- [ ] Complete Module 06 – Recursion
-- [ ] Complete Module 07 – Sorting
+- [ ] Complete Module 03 – Arrays (Core)
+- [ ] Complete Module 04 – Sorting
+- [ ] Complete Module 05 – Binary Search
+- [ ] Complete Module 06 – Strings
+- [ ] Complete Module 07 – Recursion
 - [ ] Complete Module 08 – Linked List
 - [ ] Complete Module 09 – Stack & Queue
 - [ ] Complete Module 10 – Trees
@@ -349,11 +580,27 @@ Each solved problem is mapped to one or more of these patterns.
 - [ ] Complete Module 13 – Greedy
 - [ ] Complete Module 14 – Dynamic Programming
 - [ ] Complete Module 15 – Bit Manipulation
-- [ ] Solve 50 Coding Problems
-- [ ] Solve 100 Coding Problems
-- [ ] Solve 150 Coding Problems
-- [ ] Solve 200 Coding Problems
-- [ ] Complete the DSA Roadmap
+
+---
+
+## Problem Solving Milestones
+
+- [ ] Solve 25 Problems
+- [ ] Solve 50 Problems
+- [ ] Solve 75 Problems
+- [ ] Solve 100 Problems
+- [ ] Solve 150 Problems
+- [ ] Solve 200 Problems
+- [ ] Solve 250 Problems
+
+---
+
+## Repository Milestones
+
+- [ ] Complete Core DSA Roadmap
+- [ ] Complete Personal DSA Handbook
+- [ ] Complete Revision Notes
+- [ ] Complete Interview Pattern Library
 - [ ] Become Interview Ready
 
 ---
@@ -384,12 +631,13 @@ This repository follows a few core principles that guide every learning session.
 - Think before looking at any solution.
 - Always understand the brute-force approach first.
 - Optimize only after identifying the bottleneck.
-- Focus on understanding, not memorization.
+- Never memorize code blindly.
+- Understand the intuition behind every algorithm.
 - Analyze Time & Space Complexity for every solution.
-- Dry run every algorithm.
-- Recognize interview patterns.
-- Write clean, readable, and maintainable Java code.
-- Document key learnings after every problem.
+- Dry run every optimized algorithm.
+- Recognize reusable interview patterns.
+- Write clean, readable Java code.
+- Document every important learning.
 - Revise solved problems regularly.
 - Stay consistent.
 
@@ -403,48 +651,314 @@ This repository follows a few core principles that guide every learning session.
 
 **Modules Completed:** **2 / 15**
 
-**Problems Solved:** **13 / 200–250**
+**Problems Solved:** **20 / 200–250**
 
-**Current Module:** **03 – Arrays**
+**Current Module:** **03 – Arrays (Core)**
 
-**Current Lesson:** **Two Sum**
+**Current Progress in Arrays:** **17 / 22 Core Problems**
 
-**Next Lesson:** **Sort an Array of 0s, 1s and 2s (Dutch National Flag Algorithm)**
+**Current Lesson:** **Best Time to Buy and Sell Stock**
+
+**Next Lesson:** **Rearrange Array by Sign**
+
+---
+
+## 📅 Learning Path
+
+```text
+✅ Time Complexity
+        │
+        ▼
+✅ Mathematics
+        │
+        ▼
+🟨 Arrays (Core)
+        │
+        ▼
+⬜ Sorting
+        │
+        ▼
+⬜ Binary Search
+        │
+        ▼
+⬜ Strings
+        │
+        ▼
+⬜ Recursion
+        │
+        ▼
+⬜ Linked List
+        │
+        ▼
+⬜ Stack & Queue
+        │
+        ▼
+⬜ Trees
+        │
+        ▼
+⬜ Heap
+        │
+        ▼
+⬜ Graphs
+        │
+        ▼
+⬜ Greedy
+        │
+        ▼
+⬜ Dynamic Programming
+        │
+        ▼
+⬜ Bit Manipulation
+```
+
+---
+
+# 🎯 Current Focus
+
+At the moment, the primary focus is on completing the **Core Arrays** module.
+
+### Remaining Core Array Problems
+
+- ⬜ Rearrange Array by Sign
+- ⬜ Next Permutation
+- ⬜ Leaders in an Array
+- ⬜ Pascal Triangle
+- ⬜ Merge Overlapping Intervals
+
+Once these are completed, the learning journey will continue with **Sorting**, followed by **Binary Search**, which naturally builds upon the concepts learned in Arrays.
 
 ---
 
 # 🌟 Repository Vision
 
-This repository is more than a collection of solved coding problems—it's my personal **DSA Handbook**.
+This repository is more than just a collection of solved coding problems.
 
-It is being built as a long-term reference that combines theory, implementation, and interview preparation in one place.
+It is my personal **Data Structures & Algorithms Handbook**, built from scratch through continuous learning, experimentation, documentation, and revision.
 
-Each module contains:
+The purpose of this repository is to build a deep understanding of algorithms instead of memorizing solutions.
 
-- 📚 Well-structured Notes
-- 🧠 Algorithm Explanations
+Every topic is documented with:
+
+- 📚 Comprehensive Notes
+- 🧠 Concept Explanations
 - 🔍 Step-by-Step Dry Runs
 - ☕ Java Implementations
 - 📈 Time & Space Complexity Analysis
 - 🎯 Interview Pattern Recognition
 - 📝 Revision Notes
-- 🚀 Personal Learning Progress
+- 💡 Key Learnings
+- 🚀 Personal Progress Tracking
 
-The ultimate goal is to build a reusable reference for continuous learning and software engineering interview preparation.
+As this repository grows, it will become a long-term reference for interview preparation, revision, and continuous learning.
 
 ---
 
 # 🚀 Long-Term Goals
 
+This journey is focused on mastering problem-solving rather than simply completing problems.
+
+The long-term goals are:
+
 - Master core Data Structures & Algorithms.
-- Develop strong problem-solving skills.
-- Recognize common interview patterns quickly.
-- Solve 200–250 high-quality DSA problems.
-- Build confidence for coding interviews.
+- Build strong analytical and logical thinking.
+- Recognize interview patterns naturally.
+- Solve **200–250 high-quality DSA problems**.
+- Create a reusable personal DSA Handbook.
+- Improve coding speed and confidence.
+- Develop clean, readable, and maintainable Java solutions.
 - Become interview-ready for Software Engineering roles.
+
+---
+
+# 📌 Repository Highlights
+
+This repository contains:
+
+- ✅ Well-Organized Learning Modules
+- ✅ Theory Notes
+- ✅ Interview Problems
+- ✅ Dry Runs
+- ✅ Java Implementations
+- ✅ Brute Force Solutions
+- ✅ Optimized Solutions
+- ✅ Complexity Analysis
+- ✅ Interview Pattern Recognition
+- ✅ Revision-Friendly Documentation
+
+Every module is designed to answer three important questions:
+
+1. **What is the problem?**
+2. **Why does the solution work?**
+3. **How can the same pattern be reused in future problems?**
+
+---
+
+# 🧠 What Makes This Repository Different?
+
+Instead of collecting random coding solutions, this repository emphasizes understanding.
+
+For every problem, I focus on:
+
+- Understanding the intuition.
+- Discovering the brute-force approach independently.
+- Identifying the bottleneck.
+- Optimizing step by step.
+- Performing a complete dry run.
+- Learning the underlying interview pattern.
+- Documenting the final solution for future revision.
+
+The goal is not to memorize algorithms, but to build the ability to derive them during interviews.
+
+---
+
+# 📖 My Learning Philosophy
+
+I believe the best way to master DSA is through consistency and deliberate practice.
+
+My learning process is based on four simple principles:
+
+### 1. Understand
+
+Never start by memorizing code.
+
+Always understand:
+
+- Why the algorithm exists.
+- What problem it solves.
+- Why it is correct.
+
+---
+
+### 2. Build
+
+Implement every solution from scratch.
+
+Write:
+
+- Brute Force Solution
+- Better Solution (if applicable)
+- Optimal Solution
+
+This builds confidence and improves problem-solving ability.
+
+---
+
+### 3. Document
+
+Every important learning is documented.
+
+This repository is designed to become my personal knowledge base that I can revisit at any time.
+
+---
+
+### 4. Revise
+
+Knowledge fades without revision.
+
+Regular revision is an essential part of this journey.
+
+---
+
+# 📅 Future Roadmap
+
+After completing the core modules, I plan to extend this repository with:
+
+- Advanced Array Problems
+- Advanced Graph Algorithms
+- Advanced Dynamic Programming
+- Advanced Tree Problems
+- Advanced Interview Questions
+- System Design Preparation
+- Low-Level Design (LLD)
+- High-Level Design (HLD)
+
+The goal is to gradually evolve this repository into a complete Software Engineering preparation handbook.
+
+---
+
+# 🤝 Acknowledgements
+
+This learning journey is inspired by several outstanding educators and platforms.
+
+Special thanks to:
+
+- Striver (Take U Forward)
+- NeetCode
+- Love Babbar (CodeHelp)
+- GeeksforGeeks
+- LeetCode
+- HackerRank
+
+Their educational content has played an important role in strengthening my understanding of Data Structures & Algorithms.
 
 ---
 
 # ⭐ Motto
 
 > **"Don't memorize algorithms. Understand them well enough to rediscover them."**
+
+---
+
+# 📈 Journey Status
+
+```text
+Started
+   │
+   ▼
+✅ Time Complexity
+   │
+   ▼
+✅ Mathematics
+   │
+   ▼
+🟨 Arrays (Core)
+   │
+   ▼
+⬜ Sorting
+   │
+   ▼
+⬜ Binary Search
+   │
+   ▼
+⬜ Strings
+   │
+   ▼
+⬜ Recursion
+   │
+   ▼
+⬜ Linked List
+   │
+   ▼
+⬜ Stack & Queue
+   │
+   ▼
+⬜ Trees
+   │
+   ▼
+⬜ Heap
+   │
+   ▼
+⬜ Graphs
+   │
+   ▼
+⬜ Greedy
+   │
+   ▼
+⬜ Dynamic Programming
+   │
+   ▼
+⬜ Bit Manipulation
+   │
+   ▼
+🎯 Software Engineering Interview Ready
+```
+
+---
+
+## ⭐ If you're exploring this repository
+
+I hope these notes, dry runs, and implementations help you understand DSA concepts more deeply.
+
+If you're following a similar learning journey, feel free to use this repository as a reference and adapt the ideas to your own style.
+
+Happy Learning! 🚀

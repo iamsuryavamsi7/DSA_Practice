@@ -49,8 +49,10 @@ public class DSAJava{
 //        SortArrayOnesTwosThrees.getSortArrayOnesTwosThreesOptimized(targetArrSorted);
 //        int[] majorityElement = new int[]{2,2,1,1,1,2,2};
 //        MajorityElement.getMajorityElementOptimized(majorityElement);
-        int[] maxSum = new int[]{2, 3, -8, 7, -1, 2, 3};
-        MaximumSubArraySum.getMaximumSubArraySumBruteForce(maxSum);
+//        int[] maxSum = new int[]{2, 3, -8, 7, -1, 2, 3};
+//        MaximumSubArraySum.getMaximumSubArrayKadaneLawOptimized(maxSum);
+        int[] pricesArr = new int[]{7, 1, 5, 3, 6, 4};
+        StockProblem.getStockProblem(pricesArr);
 
     }
 
