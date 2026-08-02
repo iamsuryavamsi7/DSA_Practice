@@ -1,6 +1,7 @@
 package com.surya.dsa;
 
 import com.surya.dsa.arrays.*;
+import com.surya.dsa.sorting.BubbleSort;
 
 public class DSAJava{
 
@@ -51,8 +52,13 @@ public class DSAJava{
 //        MajorityElement.getMajorityElementOptimized(majorityElement);
 //        int[] maxSum = new int[]{2, 3, -8, 7, -1, 2, 3};
 //        MaximumSubArraySum.getMaximumSubArrayKadaneLawOptimized(maxSum);
-        int[] pricesArr = new int[]{7, 1, 5, 3, 6, 4};
-        StockProblem.getStockProblem(pricesArr);
+//        int[] pricesArr = new int[]{7, 1, 5, 3, 6, 4};
+//        StockProblem.getStockProblem(pricesArr);
+//        int[] reArrangeBySign = new int[]{3, 1, -2, -5, 2, -4};
+//        ReArrangeBySign.getReArrangedArr(reArrangeBySign);
+        int[] sortArr01 = new int[]{2, 6, 7, 1, 5, 3, 4};
+//        int[] sortArr01 = new int[]{1, 2, 3, 4};
+        BubbleSort.sort(sortArr01);
 
     }
 
