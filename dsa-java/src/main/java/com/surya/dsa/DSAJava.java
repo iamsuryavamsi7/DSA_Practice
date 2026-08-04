@@ -3,7 +3,10 @@ package com.surya.dsa;
 import com.surya.dsa.arrays.*;
 import com.surya.dsa.sorting.BubbleSort;
 import com.surya.dsa.sorting.InsertionSort;
+import com.surya.dsa.sorting.MergeSort;
 import com.surya.dsa.sorting.SelectionSort;
+
+import java.util.Arrays;
 
 public class DSAJava{
 
@@ -65,6 +68,8 @@ public class DSAJava{
 //        SelectionSort.sort(sortArr02);
 //        int[] sortArr03 = new int[]{7, 3, 8, 2, 6, 4, 5};
 //        InsertionSort.sort(sortArr03);
+//        int[] sortArr04 = new int[]{7, 3, 8, 2, 6, 4, 5};
+//        MergeSort.sort(sortArr04, 0, (sortArr04.length - 1));
 
     }
 
