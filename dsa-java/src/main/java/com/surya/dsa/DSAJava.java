@@ -70,6 +70,11 @@ public class DSAJava{
 //        int[] sortArr05 = new int[]{8, 3, 1, 7, 0, 10, 2};
 //        QuickSort.sort(sortArr05, 0, sortArr05.length - 1);
 //        System.out.println("[QuickSort] : " + Arrays.toString(sortArr05));
+//        int[] sortArr06 = new int[]{4, 10, 3, 5, 1};
+//        HeapSort.sort(sortArr06, sortArr06.length, 0);
+//        int[] sortArr07 = new int[]{3, 1, 2, 3, 1};
+//        CountingSort.sort(sortArr07);
+//        System.out.println("[Counting sort] : " + Arrays.toString(sortArr07));
 
     }
 
