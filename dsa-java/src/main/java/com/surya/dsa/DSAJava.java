@@ -1,10 +1,7 @@
 package com.surya.dsa;
 
 import com.surya.dsa.arrays.*;
-import com.surya.dsa.sorting.BubbleSort;
-import com.surya.dsa.sorting.InsertionSort;
-import com.surya.dsa.sorting.MergeSort;
-import com.surya.dsa.sorting.SelectionSort;
+import com.surya.dsa.sorting.*;
 
 import java.util.Arrays;
 
@@ -70,6 +67,9 @@ public class DSAJava{
 //        InsertionSort.sort(sortArr03);
 //        int[] sortArr04 = new int[]{7, 3, 8, 2, 6, 4, 5};
 //        MergeSort.sort(sortArr04, 0, (sortArr04.length - 1));
+//        int[] sortArr05 = new int[]{8, 3, 1, 7, 0, 10, 2};
+//        QuickSort.sort(sortArr05, 0, sortArr05.length - 1);
+//        System.out.println("[QuickSort] : " + Arrays.toString(sortArr05));
 
     }
 
