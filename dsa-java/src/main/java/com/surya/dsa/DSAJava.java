@@ -1,14 +1,16 @@
 package com.surya.dsa;
 
 import com.surya.dsa.arrays.*;
+import com.surya.dsa.customExceptions.TargetNotFoundException;
 import com.surya.dsa.sorting.*;
+import com.surya.dsa.binarySearch.BinarySearch;
 
 import java.util.Arrays;
 
 public class DSAJava{
 
     // Main file (Starting point of code execution)
-    public static void main(String[] args){
+    public static void main(String[] args) throws TargetNotFoundException {
 
 //        int countingDigitsTarget = 12345;
 //        System.out.println("Count digits: " + CountDigits.countDigits(countingDigitsTarget));
@@ -75,6 +77,11 @@ public class DSAJava{
 //        int[] sortArr07 = new int[]{3, 1, 2, 3, 1};
 //        CountingSort.sort(sortArr07);
 //        System.out.println("[Counting sort] : " + Arrays.toString(sortArr07));
+//        int[] sortedArr08 = new int[]{3, 7, 11, 15, 19, 24, 31, 42, 56, 70, 85};
+//        System.out.println(BinarySearch.search(sortedArr08, 42));
+//        System.out.println(BinarySearch.searchInsertPosition(sortedArr08, 420));
+//        System.out.println(BinarySearch.boundarySearch(sortedArr08, 84));
+//        System.out.println(Recap01.primeFactorization(60));
 
     }
 
